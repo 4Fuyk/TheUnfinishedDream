@@ -1,0 +1,33 @@
+# TODO: verify capital state id against installed map files (target: Northern Kazakhstan region, e.g. Petropavlovsk/Semipalatinsk area)
+capital = 924
+
+oob = "KRF_1936"
+
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.55
+set_war_support = 0.60
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 70
+	neutrality = 15
+	fascism = 5
+	democratic = 10
+}
+
+create_country_leader = {
+	name = "Turar Ryskulov"
+	desc = "POLITICS_KRF_RYSKULOV_DESC"
+	picture = "Gfx_Leader_KRF_Ryskulov.dds"
+	expire = "1965.1.1"
+	ideology = marxist_leninist
+	traits = {
+	}
+}
