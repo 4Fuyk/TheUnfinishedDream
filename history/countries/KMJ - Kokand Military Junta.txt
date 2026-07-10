@@ -1,5 +1,4 @@
-# TODO: verify capital state id against installed map files (target: Fergana Valley region, e.g. Kokand/Andijan area)
-capital = 831
+capital = 405 # Tashkent (closest vanilla state to Fergana Valley/Kokand)
 
 oob = "KMJ_1936"
 
