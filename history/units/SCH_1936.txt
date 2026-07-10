@@ -1,0 +1,5 @@
+start_date = 1936.1.1
+
+# Starting order of battle for the Steppe Cavalry Host
+# No divisions deployed yet -- to be added once division templates and equipment are defined
+# Design note: no fixed capital feel, fast cavalry and motorized raider divisions with high speed stats
