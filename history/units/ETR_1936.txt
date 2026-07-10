@@ -1,0 +1,4 @@
+start_date = 1936.1.1
+
+# Starting order of battle for the First East Turkestan Republic
+# No divisions deployed yet -- to be added once division templates and equipment are defined
