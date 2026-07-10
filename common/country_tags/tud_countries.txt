@@ -1,1 +1,2 @@
 TND = "countries/Turanian National Directorate.txt"
+KRF = "countries/Kazakh Revolutionary Front.txt"
