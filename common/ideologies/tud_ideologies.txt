@@ -6,4 +6,11 @@ ideologies = {
 			}
 		}
 	}
+	communism = {
+		types = {
+			marxist_leninist = {
+				can_be_boosted = yes
+			}
+		}
+	}
 }
