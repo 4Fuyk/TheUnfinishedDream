@@ -1,0 +1,33 @@
+# TODO: verify capital state id against installed map files (target: Fergana Valley region, e.g. Kokand/Andijan area)
+capital = 831
+
+oob = "KMJ_1936"
+
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.40
+set_war_support = 0.75
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 75
+	neutrality = 15
+	communism = 5
+	democratic = 5
+}
+
+create_country_leader = {
+	name = "Haji Sami Bey"
+	desc = "POLITICS_KMJ_SAMI_DESC"
+	picture = "Gfx_Leader_KMJ_Sami.dds"
+	expire = "1965.1.1"
+	ideology = ultranationalist
+	traits = {
+	}
+}
