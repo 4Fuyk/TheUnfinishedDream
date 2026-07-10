@@ -1,0 +1,32 @@
+capital = 619 # Yarkand
+
+oob = "ETR_1936"
+
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.45
+set_war_support = 0.55
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 70
+	democratic = 10
+	fascism = 5
+	communism = 15
+}
+
+create_country_leader = {
+	name = "Hoja Niyaz"
+	desc = "POLITICS_ETR_NIYAZ_DESC"
+	picture = "Gfx_Leader_ETR_Niyaz.dds"
+	expire = "1965.1.1"
+	ideology = islamic_republic
+	traits = {
+	}
+}
