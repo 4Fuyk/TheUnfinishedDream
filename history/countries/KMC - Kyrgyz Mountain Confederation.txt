@@ -1,0 +1,32 @@
+capital = 732 # Pamir
+
+oob = "KMC_1936"
+
+set_research_slots = 1
+set_convoys = 0
+set_stability = 0.65
+set_war_support = 0.35
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 85
+	democratic = 5
+	fascism = 5
+	communism = 5
+}
+
+create_country_leader = {
+	name = "Imanaly Aidarbekov"
+	desc = "POLITICS_KMC_AIDARBEKOV_DESC"
+	picture = "Gfx_Leader_KMC_Aidarbekov.dds"
+	expire = "1965.1.1"
+	ideology = tribal_council
+	traits = {
+	}
+}
