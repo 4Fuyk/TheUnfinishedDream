@@ -1,5 +1,4 @@
-# TODO: verify capital state id against installed map files (target: Northern Kazakhstan region, e.g. Petropavlovsk/Semipalatinsk area)
-capital = 924
+capital = 590 # Akmolinsk
 
 oob = "KRF_1936"
 
