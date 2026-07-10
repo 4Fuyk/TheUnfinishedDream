@@ -4,6 +4,12 @@ ideologies = {
 			paternal_autocrat = {
 				can_be_boosted = yes
 			}
+			theocratic_despot = {
+				can_be_boosted = yes
+			}
+			islamic_republic = {
+				can_be_boosted = yes
+			}
 		}
 	}
 	communism = {
