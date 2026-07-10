@@ -1,0 +1,32 @@
+capital = 405 # Tashkent
+
+oob = "TMA_1936"
+
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.70
+set_war_support = 0.40
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 60
+	democratic = 25
+	fascism = 5
+	communism = 10
+}
+
+create_country_leader = {
+	name = "Mustafa Shokay"
+	desc = "POLITICS_TMA_SHOKAY_DESC"
+	picture = "Gfx_Leader_TMA_Shokay.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
