@@ -1,6 +1,6 @@
 TND = "countries/Turanian National Directorate.txt"
 KRF = "countries/Kazakh Revolutionary Front.txt"
 KMJ = "countries/Kokand Military Junta.txt"
-EOK = "countries/Emirate of Khwarezm.txt"
+KHO = "countries/Emirate of Khwarezm.txt"
 ALR = "countries/Alash Republic.txt"
 ETR = "countries/First East Turkestan Republic.txt"
