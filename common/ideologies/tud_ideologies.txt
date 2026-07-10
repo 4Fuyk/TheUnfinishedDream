@@ -1,0 +1,9 @@
+ideologies = {
+	neutrality = {
+		types = {
+			paternal_autocrat = {
+				can_be_boosted = yes
+			}
+		}
+	}
+}
