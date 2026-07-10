@@ -1,0 +1,7 @@
+l_english:
+ TND:0 "Turanian National Directorate"
+ TND_DEF:0 "Turanian"
+ TND_ADJ:0 "Turanian"
+ TND_neutrality:0 "Directorate Loyalists"
+ TND_neutrality_desc:0 "Bureaucrats and intellectuals striving to hold the fractured Turanian union together through administration rather than the sword."
+ POLITICS_TND_TOGAN_DESC:0 "Historian and former Bashkir nationalist leader, Zeki Velidi Togan now heads the remnants of the Turanian state apparatus from Samarkand."
