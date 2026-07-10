@@ -1,0 +1,5 @@
+start_date = 1936.1.1
+
+# Starting order of battle for the Caspian Corporate Mandate
+# No divisions deployed yet -- to be added once division templates and equipment are defined
+# Design note: should rely on a small number of well-equipped Western mercenary divisions
