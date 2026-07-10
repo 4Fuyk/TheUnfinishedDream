@@ -1,5 +1,4 @@
-# TODO: verify capital state id against installed map files (target: Samarkand/Bukhara region)
-capital = 823
+capital = 830 # Bukhara
 
 oob = "TND_1936"
 
