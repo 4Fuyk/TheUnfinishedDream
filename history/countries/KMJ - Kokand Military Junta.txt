@@ -1,4 +1,4 @@
-capital = 405 # Tashkent (closest vanilla state to Fergana Valley/Kokand)
+capital = 586 # Alma-Ata (reassigned from Tashkent to avoid conflict with TMA)
 
 oob = "KMJ_1936"
 
