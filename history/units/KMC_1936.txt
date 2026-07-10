@@ -1,0 +1,5 @@
+start_date = 1936.1.1
+
+# Starting order of battle for the Kyrgyz Mountain Confederation
+# No divisions deployed yet -- to be added once division templates and equipment are defined
+# Design note: no regular army, mountain infantry and guerrilla-focused divisions only
