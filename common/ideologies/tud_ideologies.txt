@@ -13,4 +13,11 @@ ideologies = {
 			}
 		}
 	}
+	fascism = {
+		types = {
+			ultranationalist = {
+				can_be_boosted = yes
+			}
+		}
+	}
 }
