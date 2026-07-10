@@ -1,2 +1,3 @@
 TND = "countries/Turanian National Directorate.txt"
 KRF = "countries/Kazakh Revolutionary Front.txt"
+KMJ = "countries/Kokand Military Junta.txt"
