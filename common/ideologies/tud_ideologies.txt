@@ -1,45 +1,45 @@
 ideologies = {
-	neutrality = {
-	types = {
-	paternal_autocrat = {
-	can_be_boosted = yes
+	tud_conservatism = {
+		types = {
+			paternal_autocrat = {
+				can_be_boosted = yes
+			}
+			theocratic_despot = {
+				can_be_boosted = yes
+			}
+			islamic_republic = {
+				can_be_boosted = yes
+			}
+			stratocracy = {
+				can_be_boosted = yes
+			}
+			tribal_council = {
+				can_be_boosted = yes
+			}
+		}
 	}
-	theocratic_despot = {
-	can_be_boosted = yes
+	tud_marxism = {
+		types = {
+			marxist_leninist = {
+				can_be_boosted = yes
+			}
+			syndicalist = {
+				can_be_boosted = yes
+			}
+		}
 	}
-	islamic_republic = {
-	can_be_boosted = yes
+	tud_ultranationalism = {
+		types = {
+			ultranationalist = {
+				can_be_boosted = yes
+			}
+		}
 	}
-	stratocracy = {
-	can_be_boosted = yes
-	}
-	tribal_council = {
-	can_be_boosted = yes
-	}
-	}
-	}
-	communism = {
-	types = {
-	marxist_leninist = {
-	can_be_boosted = yes
-	}
-	syndicalist = {
-	can_be_boosted = yes
-	}
-	}
-	}
-	fascism = {
-	types = {
-	ultranationalist = {
-	can_be_boosted = yes
-	}
-	}
-	}
-	democratic = {
-	types = {
-	oligarchic = {
-	can_be_boosted = yes
-	}
-	}
+	tud_plutocracy = {
+		types = {
+			oligarchic = {
+				can_be_boosted = yes
+			}
+		}
 	}
 }
