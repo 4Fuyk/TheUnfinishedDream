@@ -8,14 +8,14 @@ set_stability = 0.55
 set_war_support = 0.30
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = tud_democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 60
+	tud_democracy = 60
 	neutrality = 20
 	fascism = 5
 	communism = 15
@@ -26,7 +26,7 @@ create_country_leader = {
 	desc = "POLITICS_ALR_BUKEIKHANOV_DESC"
 	picture = "Gfx_Leader_ALR_Bukeikhanov.png"
 	expire = "1965.1.1"
-	ideology = liberal
+	ideology = alash_liberalism
 	traits = {
 	}
 }
