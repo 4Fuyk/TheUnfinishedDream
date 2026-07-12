@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  TND:0 "Turanian National Directorate"
  TND_DEF:0 "Turanian"
  TND_ADJ:0 "Turanian"
@@ -26,8 +26,8 @@ l_english:
  ALR:0 "Alash Republic"
  ALR_DEF:0 "Alashi"
  ALR_ADJ:0 "Alashi"
- ALR_democratic:0 "Alash Orda"
- ALR_democratic_desc:0 "Teachers, civil servants, and intellectuals who fled both the militarists and the communists to build a Western-style republic."
+ ALR_tud_democracy:0 "Alash Orda"
+ ALR_tud_democracy_desc:0 "Teachers, civil servants, and intellectuals who fled both the militarists and the communists to build a Western-style republic."
  POLITICS_ALR_BUKEIKHANOV_DESC:0 "Founder of the historic Alash Orda government, Alikhan Bukeikhanov leads a fragile republic that survives on foreign goodwill more than force of arms."
  ETR:0 "First East Turkestan Republic"
  ETR_DEF:0 "East Turkestani"
@@ -73,6 +73,8 @@ l_english:
  tud_ultranationalism_desc:0 "Militarist and ultra-nationalist movements seeking conquest and unification by force."
  tud_plutocracy:0 "Oligarchy"
  tud_plutocracy_desc:0 "Rule by wealthy elites and foreign business interests."
+ tud_democracy:0 "Democratic"
+ tud_democracy_desc:0 "Elected government answering to the people through open elections."
  paternal_autocrat:0 "Paternal Autocracy"
  paternal_autocrat_desc:0 "A bureaucratic strongman rule that claims to govern in the people's best interest."
  theocratic_despot:0 "Theocratic Despotism"
@@ -91,3 +93,5 @@ l_english:
  ultranationalist_desc:0 "A militant nationalism that seeks unification and conquest by force."
  oligarchic:0 "Oligarchy"
  oligarchic_desc:0 "Rule by a small circle of wealthy business elites."
+ alash_liberalism:0 "Alash Liberalism"
+ alash_liberalism_desc:0 "A constitutional, Western-oriented liberal democracy modeled on the historic Alash Orda movement."
