@@ -1,5 +1,6 @@
 ideologies = {
 	tud_conservatism = {
+		color = { 176 156 92 }
 		types = {
 			paternal_autocrat = {
 			}
@@ -14,6 +15,7 @@ ideologies = {
 		}
 	}
 	tud_marxism = {
+		color = { 190 40 40 }
 		types = {
 			marxist_leninist = {
 			}
@@ -22,18 +24,21 @@ ideologies = {
 		}
 	}
 	tud_ultranationalism = {
+		color = { 90 55 25 }
 		types = {
 			ultranationalist = {
 			}
 		}
 	}
 	tud_plutocracy = {
+		color = { 200 170 60 }
 		types = {
 			oligarchic = {
 			}
 		}
 	}
 	tud_democracy = {
+		color = { 60 100 190 }
 		types = {
 			alash_liberalism = {
 			}
