@@ -15,7 +15,7 @@ set_politics = {
 }
 
 set_popularities = {
-	tud_marxism = 70
+	marxist_leninist = 70
 	neutrality = 15
 	fascism = 5
 	democratic = 10
