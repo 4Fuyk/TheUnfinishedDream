@@ -15,7 +15,7 @@ set_politics = {
 }
 
 set_popularities = {
-	tud_conservatism = 65
+	paternal_autocrat = 65
 	democratic = 5
 	fascism = 15
 	communism = 15
