@@ -12,6 +12,8 @@ ideologies = {
 			}
 			tribal_council = {
 			}
+			fedai_command = {
+			}
 		}
 	}
 	tud_marxism = {
