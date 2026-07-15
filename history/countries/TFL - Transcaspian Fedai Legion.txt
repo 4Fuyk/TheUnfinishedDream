@@ -1,0 +1,33 @@
+# TODO: capital province list not yet verified against real vanilla state 584 data
+capital = 584 # Ashkhabad
+
+oob = "TFL_1936"
+
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.45
+set_war_support = 0.65
+
+set_politics = {
+	ruling_party = tud_conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	tud_conservatism = 70
+	fascism = 15
+	communism = 10
+	democratic = 5
+}
+
+create_country_leader = {
+	name = "Esref Kuscubasi"
+	desc = "POLITICS_TFL_ESREF_DESC"
+	picture = "gfx/leaders/TFL/Gfx_Leader_TFL_Esref.png"
+	expire = "1965.1.1"
+	ideology = fedai_command
+	traits = {
+	}
+}
