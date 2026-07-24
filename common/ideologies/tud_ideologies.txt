@@ -14,6 +14,8 @@ ideologies = {
 			}
 			fedai_command = {
 			}
+			caucasus_command = {
+			}
 		}
 	}
 	tud_marxism = {
