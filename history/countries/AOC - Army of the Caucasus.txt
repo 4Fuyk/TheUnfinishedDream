@@ -1,0 +1,35 @@
+# TODO: capital state id is a placeholder pending real Caucasus-region province data (near Baku/Azerbaijan border)
+capital = 229 # Azerbaijan (placeholder, verify against real vanilla state data)
+
+oob = "AOC_1936"
+
+set_research_slots = 2
+set_convoys = 0
+set_stability = 0.50
+set_war_support = 0.70
+
+set_politics = {
+	ruling_party = tud_conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	tud_conservatism = 70
+	fascism = 15
+	communism = 10
+	democratic = 5
+}
+
+create_country_leader = {
+	name = "Nuri Pasha"
+	desc = "POLITICS_AOC_NURI_DESC"
+	picture = "gfx/leaders/AOC/Gfx_Leader_AOC_Nuri.png"
+	expire = "1965.1.1"
+	ideology = caucasus_command
+	traits = {
+	}
+}
+
+recruit_character = AOC_esref_kuscubasi
