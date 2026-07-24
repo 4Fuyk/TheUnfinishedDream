@@ -1,0 +1,13 @@
+characters = {
+	AOC_esref_kuscubasi = {
+		name = "Esref Kuscubasi"
+
+		field_marshal = {
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+}
