@@ -1,0 +1,205 @@
+focus_tree = {
+	id = turkish_focus
+
+	focus = {
+		id = TUR_dogudaki_golgeler
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = TUR_turanist_ambition }
+		x = 4
+		y = 1
+		relative_position_id = TUR_turanist_ambition
+		cost = 10
+		ai_will_do = { base = 10 }
+		completion_reward = {
+			add_political_power = 50
+			add_stability = -0.02
+		}
+	}
+
+	focus = {
+		id = TUR_eski_yoldaslar_yeni_tehditler
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = TUR_dogudaki_golgeler }
+		x = 0
+		y = 1
+		relative_position_id = TUR_dogudaki_golgeler
+		cost = 10
+		ai_will_do = { base = 10 }
+		completion_reward = {
+			add_political_power = 30
+			set_country_flag = TUR_kuscubasi_crossroads
+		}
+	}
+
+	focus = {
+		id = TUR_ortulu_odenekler
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = TUR_eski_yoldaslar_yeni_tehditler }
+		mutually_exclusive = { focus = TUR_kuscubasi_temizligi }
+		x = -2
+		y = 1
+		relative_position_id = TUR_eski_yoldaslar_yeni_tehditler
+		cost = 10
+		ai_will_do = { base = 5 }
+		completion_reward = {
+			add_political_power = -30
+			if = {
+				limit = { AOC = { exists = yes } }
+				AOC = { add_stability = 0.05 add_war_support = 0.05 }
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_asyada_kurtulus_savasi
+		icon = GFX_goal_generic_cavalry
+		prerequisite = { focus = TUR_ortulu_odenekler }
+		x = 0
+		y = 1
+		relative_position_id = TUR_ortulu_odenekler
+		cost = 10
+		ai_will_do = { base = 5 }
+		completion_reward = {
+			add_war_support = 0.05
+			if = {
+				limit = { AOC = { exists = yes } }
+				AOC = { add_manpower = 20000 }
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_enver_mirasini_kabul
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = TUR_asyada_kurtulus_savasi }
+		x = 0
+		y = 1
+		relative_position_id = TUR_asyada_kurtulus_savasi
+		cost = 10
+		ai_will_do = { base = 5 }
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 100
+			if = {
+				limit = { AOC = { exists = yes } }
+				recruit_character = AOC_esref_kuscubasi
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_turk_islam_ekseni
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = TUR_enver_mirasini_kabul }
+		x = 0
+		y = 1
+		relative_position_id = TUR_enver_mirasini_kabul
+		cost = 10
+		ai_will_do = { base = 5 }
+		completion_reward = {
+			if = {
+				limit = { AOC = { exists = yes } }
+				add_to_faction = AOC
+			}
+			if = {
+				limit = { AZR = { exists = yes } }
+				add_to_faction = AZR
+			}
+			if = {
+				limit = { SOV = { exists = yes } }
+				create_wargoal = { type = puppet_wargoal_focus target = SOV }
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_kuscubasi_temizligi
+		icon = GFX_goal_generic_defence
+		prerequisite = { focus = TUR_eski_yoldaslar_yeni_tehditler }
+		mutually_exclusive = { focus = TUR_ortulu_odenekler }
+		x = 2
+		y = 1
+		relative_position_id = TUR_eski_yoldaslar_yeni_tehditler
+		cost = 10
+		ai_will_do = { base = 5 }
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 50
+			if = {
+				limit = { AOC = { exists = yes } }
+				AOC = { add_stability = -0.1 }
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_demokrasi_tercih
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		prerequisite = { focus = TUR_kuscubasi_temizligi }
+		x = 0
+		y = 1
+		relative_position_id = TUR_kuscubasi_temizligi
+		cost = 10
+		ai_will_do = { base = 5 }
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = TUR_turkistan_tani
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = TUR_demokrasi_tercih }
+		x = 0
+		y = 1
+		relative_position_id = TUR_demokrasi_tercih
+		cost = 10
+		ai_will_do = { base = 5 }
+		completion_reward = {
+			if = {
+				limit = { TMA = { exists = yes } }
+				TMA = { add_stability = 0.1 add_guaranteed_by = TUR }
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_kafkas_kaleleri
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = TUR_turkistan_tani }
+		x = 0
+		y = 1
+		relative_position_id = TUR_turkistan_tani
+		cost = 10
+		ai_will_do = { base = 5 }
+		completion_reward = {
+			add_stability = 0.05
+			if = {
+				limit = { AZR = { exists = yes } }
+				add_to_faction = AZR
+			}
+		}
+	}
+
+	focus = {
+		id = TUR_genisletilmis_sadabat
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = TUR_kafkas_kaleleri }
+		x = 0
+		y = 1
+		relative_position_id = TUR_kafkas_kaleleri
+		cost = 10
+		ai_will_do = { base = 5 }
+		completion_reward = {
+			if = {
+				limit = { TMA = { exists = yes } }
+				add_to_faction = TMA
+			}
+			if = {
+				limit = { AOC = { exists = yes } }
+				create_wargoal = { type = puppet_wargoal_focus target = AOC }
+			}
+		}
+	}
+}
