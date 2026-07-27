@@ -1,0 +1,29 @@
+focus_tree = {
+	id = tud_turkish_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TUR
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 200 y = 30 }
+
+	focus = {
+		id = TUR_fall_of_enver_pasha
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 0
+		cost = 5
+		available = { always = yes }
+		ai_will_do = { base = 10 }
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.02
+		}
+	}
+}
