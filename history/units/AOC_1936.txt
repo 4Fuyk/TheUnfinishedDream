@@ -1,5 +1,40 @@
 start_date = 1936.1.1
 
-# Starting order of battle for the Army of the Caucasus
-# No divisions deployed yet -- to be added once division templates and equipment are defined
-# Design note: small expeditionary force of Ottoman-trained veterans and local Azerbaijani volunteers, holding the Baku oil region
+division_template = {
+	name = "Expeditionary Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Caucasus Expeditionary Division"
+		location = 7661
+		division_template = "Expeditionary Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "2nd Caucasus Expeditionary Division"
+		location = 7661
+		division_template = "Expeditionary Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "3rd Caucasus Expeditionary Division"
+		location = 4614
+		division_template = "Expeditionary Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+}
