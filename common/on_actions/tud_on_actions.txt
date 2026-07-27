@@ -1,0 +1,7 @@
+on_actions = {
+	on_startup = {
+		events = {
+			country_event = { id = tud_events.1 hours = 6 }
+		}
+	}
+}
