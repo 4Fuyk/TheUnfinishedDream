@@ -16,6 +16,8 @@ ideologies = {
 			}
 			caucasus_command = {
 			}
+			musavat_nationalism = {
+			}
 		}
 	}
 	tud_marxism = {
