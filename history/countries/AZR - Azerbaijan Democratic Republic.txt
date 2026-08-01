@@ -1,0 +1,32 @@
+# Historical HQ context: Azerbaijani national government at Ganja/Yelizavetpol
+capital = 233 # Caucasus Mountains (nearest available state to Ganja)
+
+oob = "AZR_1936"
+
+set_research_slots = 2
+set_stability = 0.55
+set_war_support = 0.40
+
+set_politics = {
+	ruling_party = tud_conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	tud_conservatism = 65
+	democratic = 15
+	fascism = 5
+	communism = 15
+}
+
+create_country_leader = {
+	name = "Mehmed Emin Resulzade"
+	desc = "POLITICS_AZR_RESULZADE_DESC"
+	picture = "gfx/leaders/AZR/Gfx_Leader_AZR_Resulzade.png"
+	expire = "1965.1.1"
+	ideology = musavat_nationalism
+	traits = {
+	}
+}
