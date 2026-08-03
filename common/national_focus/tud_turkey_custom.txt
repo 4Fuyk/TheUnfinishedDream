@@ -14,7 +14,7 @@ focus_tree = {
 	continuous_focus_position = { x = 200 y = 30 }
 
 	focus = {
-		id = TUR_fall_of_enver_pasha
+		id = TUR_dogudaki_golgeler
 		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 0
@@ -23,7 +23,14 @@ focus_tree = {
 		ai_will_do = { base = 10 }
 		completion_reward = {
 			add_political_power = 50
-			add_stability = 0.02
+			if = {
+				limit = { has_country_flag = tud_path_turanist_lean }
+				add_stability = -0.02
+			}
+			if = {
+				limit = { has_country_flag = tud_path_peace_lean }
+				add_stability = 0.02
+			}
 		}
 	}
 }
