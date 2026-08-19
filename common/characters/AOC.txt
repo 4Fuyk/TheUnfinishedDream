@@ -2,6 +2,13 @@ characters = {
 	AOC_esref_kuscubasi = {
 		name = "Esref Kuscubasi"
 
+		portraits = {
+			army = {
+				large = "gfx/leaders/AOC/Gfx_Leader_AOC_Esref.png"
+				small = "gfx/leaders/AOC/Gfx_Leader_AOC_Esref.png"
+			}
+		}
+
 		field_marshal = {
 			skill = 3
 			attack_skill = 4
